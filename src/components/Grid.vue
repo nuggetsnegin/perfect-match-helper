@@ -1,7 +1,7 @@
 <template>
     <div class="container mx-auto">
-        <div class="max-w-sm rounded overflow-hidden shadow-lg legend">
-            <p class="px-2 py-5"><span class="text-2xl font-mono lowercase">Order:</span> ❔🍉🍌🍊🍎🍇🍒</p>
+        <div class="max-w-xs rounded overflow-hidden shadow-lg legend">
+            <p class="px-2 py-5"><span class="text-sm font-mono lowercase">Order:</span> ❔🍉🍌🍊🍎🍇🍒</p>
         </div>
         <button 
             class="text-white rounded bg-green-400 px-4 py-2 shadow-md hover:bg-pink-600 active:outline-none focus:outline-none lowercase mb-5"

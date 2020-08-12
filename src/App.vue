@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <Header />
-    <Grid/>
+    <div class="wrapper">
+      <Header />
+      <Grid/>
+    </div>
     <Footer/>
   </div>
 </template>
@@ -29,15 +31,8 @@ export default {
   text-align: center;
 }
 
-body {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
-}
-
-footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
+.wrapper {
+  min-height: calc(100vh - 94px);
 }
 
 </style>
