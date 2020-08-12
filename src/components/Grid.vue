@@ -4,7 +4,7 @@
             <p class="px-2 py-5"><span class="text-sm font-mono lowercase">Order:</span> ❔🍉🍌🍊🍎🍇🍒</p>
         </div>
         <button 
-            class="text-white rounded bg-green-400 px-4 py-2 shadow-md hover:bg-pink-600 active:outline-none focus:outline-none lowercase mb-5"
+            class="text-white text-xs rounded bg-green-400 px-4 py-2 shadow-md hover:bg-green-600 active:outline-none focus:outline-none lowercase mb-5"
             @click="clear($event)">Clear
         </button>
         <div class="tile-container grid grid-cols-4 gap-4 grid-rows-4 bg-green-100 p-5 rounded-lg shadow-md content-center">
